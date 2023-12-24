@@ -1,3 +1,9 @@
+cat data_1 | Out-File -FilePath ./Process2.txt -Append
+
+cat data_2 | Out-File -FilePath ./Process2.txt -Append
+
+cat data_3 | Out-File -FilePath ./Process2.txt -Append
+
 whoami | Out-File -FilePath ./Process2.txt -Append
 
 Start-Sleep -Seconds 1.5
